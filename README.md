@@ -6,6 +6,7 @@
 [![Amplifiers](https://img.shields.io/badge/Amplifiers-40+-green.svg)](./docs/amplifiers/)
 [![IR Cabinets](https://img.shields.io/badge/IR%20Cabinets-30+-orange.svg)](./docs/cabinets/)
 [![Documentation](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](./docs/)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-red.svg)](./LICENSE)
 
 ## 🎯 Quick Navigation
 
@@ -73,7 +74,12 @@ This documentation is a community effort. If you find errors or want to add info
 
 ## 📄 License
 
-This documentation is provided under [MIT License](./LICENSE) for educational purposes.
+This documentation is provided under [Creative Commons BY-NC-SA 4.0](./LICENSE) for educational and non-commercial purposes.
+
+- ✅ **Free to use** for personal and educational purposes
+- ✅ **Attribution required** - Please credit this project
+- ✅ **Share improvements** - Derivatives must use same license
+- ❌ **No commercial use** - Cannot be sold or used commercially
 
 ---
 

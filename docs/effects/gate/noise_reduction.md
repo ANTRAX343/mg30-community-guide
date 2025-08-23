@@ -4,11 +4,12 @@
 ![Category](https://img.shields.io/badge/Category-GATE-blue.svg)
 ![Function](https://img.shields.io/badge/Function-Noise%20Suppression-green.svg)
 
-## Overview
+## Descripción
 
 The **Noise Reduction** is an intelligent noise gate designed to eliminate unwanted noise and hum while preserving the natural dynamics of your playing. Unlike traditional hard gates that can cut off sustain abruptly, this noise gate uses smart detection algorithms to distinguish between wanted signal and unwanted noise.
 
 Essential for:
+
 - 🎯 **High-gain setups** - Eliminates amp and pedal noise
 - 🔇 **Silent pauses** - Cuts noise during breaks in playing
 - 🎸 **Single-coil pickups** - Reduces 60Hz hum and interference
