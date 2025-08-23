@@ -100,14 +100,6 @@ Each amplifier includes:
 - Modern: AGL, MLD, Dglass
 - Versatile: Starlift, Vivo
 
-## Quick Search
-
-Use Ctrl+F (Cmd+F on Mac) to search for:
-- Amplifier brands (Fender, Marshall, Vox, Mesa, etc.)
-- Tone types (clean, crunch, high-gain, boutique)
-- Musical styles (blues, rock, metal, jazz)
-- Specific models (AC30, JCM800, Dual Rectifier, etc.)
-
 ---
 
 **Total Amplifiers**: 40+ models | **Categories**: 7 types | **Complete Parameter Documentation** 🎸

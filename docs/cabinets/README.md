@@ -160,14 +160,6 @@ Each cabinet includes:
 - Guitar: 4x12 cabinets (1960, GB412)
 - Bass: 8x10 cabinets (AMP SV810, AGL DB810)
 
-## Quick Search
-
-Use Ctrl+F (Cmd+F on Mac) to search for:
-- Cabinet brands (Marshall, Fender, Ampeg, etc.)
-- Speaker types (Celestion, Eminence, etc.)
-- Configuration (4x12, 2x12, 1x12, 8x10, 4x10)
-- Musical styles (rock, metal, jazz, country)
-
 ---
 
 **Total IRs**: 30+ cabinets | **Categories**: Guitar, Bass, Acoustic | **High-Quality 1024 Resolution** 🔊
