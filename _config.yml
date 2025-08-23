@@ -1,0 +1,24 @@
+name: NUX MG30 Effects Documentation
+description: Comprehensive documentation for NUX MG30 guitar effects processor
+url: https://[username].github.io/MG30Wiki
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - vendor/
+  - .vendor/
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
