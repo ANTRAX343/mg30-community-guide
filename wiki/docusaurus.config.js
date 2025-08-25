@@ -28,14 +28,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://darkensses.github.io',
+  url: 'https://ANTRAX343.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/mg30-community-guide/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'darkensses', // Usually your GitHub org/user name.
+  organizationName: 'ANTRAX343', // Usually your GitHub org/user name.
   projectName: 'mg30-community-guide', // Usually your repo name.
 
   trailingSlash: false,
