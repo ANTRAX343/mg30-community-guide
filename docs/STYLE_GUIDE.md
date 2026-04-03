@@ -1,131 +1,153 @@
-# MG30 Effects Wiki - Style Guide
+# Guía de Estilo — NUX MG-30 v5.0.2
 
-This document outlines the formatting standards for the MG30 Effects Documentation.
+> **Firmware objetivo:** NUX MG-30 **v5.0.2**
 
-## File Naming
+Este documento define los estándares de formato y contenido para la documentación comunitaria de la NUX MG-30.
 
-### Directory Structure
+## Reglas generales
+
+### Idioma
+- Todo el contenido debe estar en **español**.
+- Los nombres propios de efectos y modelos se mantienen en su nombre original (ej. "T Scream", "Dual Rect").
+
+### Firmware objetivo
+- Cada página debe indicar el firmware al que aplica. Usa el bloque de nota estándar al inicio:
+  ```
+  > **Firmware objetivo:** NUX MG-30 **v5.0.2**
+  ```
+- Si la información aplica a múltiples versiones, indícalo explícitamente.
+
+---
+
+## Nombres de archivos y carpetas
+
+### Estructura de directorios
 ```
 docs/
-├── effects/
+├── efectos/
 │   ├── wah/
 │   ├── cmp/
+│   ├── gate/
 │   ├── efx/
+│   ├── eq/
+│   ├── sr/
 │   ├── mod/
 │   ├── dly/
 │   └── rvb/
-├── amplifiers/
-├── cabinets/
-└── reference/
+├── amplificadores/
+├── cabinets_ir/
+├── referencia/
+└── guias/
 ```
 
-### File Names
-- Use lowercase with underscores: `t_scream.md`
-- Match MG30 internal names when possible
-- Use descriptive names for reference docs
+### Nombres de archivos
+- Usa minúsculas con guiones bajos: `t_scream.md`
+- Mantén los nombres internos de la MG-30 cuando sea posible.
+- Para archivos de referencia, usa nombres descriptivos en español: `rangos_de_parametros.md`.
 
-## Markdown Standards
+---
 
-### Headers
+## Estándares Markdown
+
+### Encabezados
 ```markdown
-# Main Title (H1 - only one per file)
-## Section (H2)
-### Subsection (H3)
+# Título principal (H1 — solo uno por archivo)
+## Sección (H2)
+### Subsección (H3)
 ```
 
-### Effect Documentation Template
+### Plantilla de documentación de efecto
 
 ```markdown
-# Effect Name (CATEGORY)
+# Nombre del Efecto (CATEGORÍA)
 
-![Effect Type](https://img.shields.io/badge/Type-EffectType-color.svg)
-![Category](https://img.shields.io/badge/Category-CAT-blue.svg)
+> **Firmware objetivo:** NUX MG-30 **v5.0.2**
 
-## Overview
-Brief description and real-world inspiration.
+![Tipo](https://img.shields.io/badge/Tipo-Overdrive-orange.svg)
+![Categoría](https://img.shields.io/badge/Categoría-EFX-blue.svg)
 
-## Parameters
-| Parameter | Range | Default | Description |
-|-----------|-------|---------|-------------|
-| param1    | 0-100 | 50      | Description |
+## Descripción
+Descripción breve e inspiración en el mundo real.
 
-## Usage Tips
-Practical application advice.
+## Parámetros
+| Parámetro | Rango | Por defecto | Descripción |
+|-----------|-------|-------------|-------------|
+| Drive     | 0–100 | 50          | Cantidad de saturación |
 
-## Related Effects
-Links to similar or complementary effects.
+## Rangos y valores de referencia
+Valores recomendados para usos comunes.
+
+## Consejos de uso
+Aplicación práctica y recomendaciones.
+
+## Efectos relacionados
+Enlaces a efectos similares o complementarios.
 ```
 
-### Badges
-Use consistent badge colors:
-- **Type**: Orange for overdrives, green for clean, red for distortion
-- **Category**: Blue for all categories
-- **Inspiration**: Green for all real-world references
+### Estructura recomendada de cada página
+1. **Descripción** — Qué hace el efecto, su inspiración real
+2. **Parámetros** — Tabla completa con rango, valor por defecto y descripción
+3. **Rangos de referencia** — Valores orientativos para estilos o usos típicos
+4. **Consejos / Tips** — Recomendaciones prácticas de uso
+5. **Ejemplos** — Cadenas o combinaciones donde funciona bien
 
-### Links
-- Internal links: `[Text](./relative/path.md)`
-- External links: `[Text](https://example.com)`
-- Always use descriptive link text
+---
 
-### Code Blocks
+## Badges
+
+Usa colores consistentes para los badges:
+- **Tipo**: naranja para overdrives, verde para limpios, rojo para distorsión
+- **Categoría**: azul para todas las categorías
+- **Referencia real**: verde para equipos reales en los que está basado
+
 ```markdown
-```yaml
-Drive: 50
-Tone: 60
-Level: 70
-```
+![Tipo](https://img.shields.io/badge/Tipo-Overdrive-orange.svg)
+![Categoría](https://img.shields.io/badge/Categoría-EFX-blue.svg)
 ```
 
-## Content Guidelines
+---
 
-### Voice and Tone
-- Professional but approachable
-- Technical accuracy is priority
-- Include practical tips and examples
+## Convenciones de enlaces
 
-### Parameter Documentation
-- Always include range (0-100 typical)
-- Provide default values when known
-- Describe what each parameter does musically
+### Navegación
+Cada página debe incluir al final una barra de navegación con:
+```markdown
+**[← Anterior](./anterior.md)** | **[Índice de sección](./README.md)** | **[Siguiente →](./siguiente.md)**
+```
 
-### Real-World References
-- Include original equipment inspiration
-- Mention famous users when relevant
-- Provide historical context
+### Tipos de enlace
+- **Internal links**: `[Texto](./ruta/relativa.md)` — siempre usa rutas relativas
+- **External links**: `[Texto](https://ejemplo.com)` — con texto descriptivo
 
-## Image and Media
+---
 
-### Badges
-- Use shields.io for consistency
-- Standard format: `![Label](https://img.shields.io/badge/...)`
+## Directrices de contenido
 
-### Audio Examples
-- Place in `/audio/` subdirectory
-- Use consistent naming: `effectname_setting.mp3`
-- Provide multiple examples per effect
+### Voz y tono
+- Profesional pero accesible
+- La precisión técnica es prioritaria
+- Incluir consejos prácticos y ejemplos musicales
 
-## SEO and Discoverability
+### Documentación de parámetros
+- Siempre incluir el rango (típicamente 0–100)
+- Proporcionar valores por defecto cuando se conozcan
+- Describir qué hace cada parámetro **musicalmente**, no solo técnicamente
 
-### Keywords
-Include relevant search terms:
-- Effect names (both MG30 and real-world)
-- Parameter names
-- Musical genres
-- Equipment brands
+### Referencias al mundo real
+- Incluir el equipo original en el que está basado el efecto
+- Mencionar usuarios/artistas famosos cuando sea relevante
+- Dar contexto histórico si es útil
 
-### Cross-References
-- Link related effects
-- Reference compatible amplifiers
-- Suggest effect chains
+---
 
-## Maintenance
+## Mantenimiento
 
-### Version Control
-- Commit messages: "Add [effect name] documentation"
-- Update version history in files when changed
-- Maintain changelog in main README
+### Control de versiones
+- Mensajes de commit: "Añadir documentación [nombre efecto]" / "Traducir [archivo]"
+- Actualizar este fichero cuando cambien las convenciones
 
-### Community Guidelines
-- Encourage user contributions
-- Provide clear editing guidelines
-- Maintain consistent quality standards
+### Directrices comunitarias
+- Fomenta las contribuciones con instrucciones claras
+- Mantén estándares de calidad consistentes
+- Revisa los PR para asegurar que siguen esta guía de estilo
+

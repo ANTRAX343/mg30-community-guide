@@ -1,6 +1,6 @@
-name: NUX MG30 Effects Documentation
-description: Comprehensive documentation for NUX MG30 guitar effects processor
-url: https://[username].github.io/MG30Wiki
+name: Guía Comunitaria NUX MG-30 — Firmware v5.0.2
+description: Documentación comunitaria completa para la pedalera NUX MG-30 con firmware v5.0.2
+url: https://antrax343.github.io/mg30-community-guide
 
 markdown: kramdown
 highlighter: rouge
@@ -21,4 +21,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - README.md
+  - MIGRATION.md

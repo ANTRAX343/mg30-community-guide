@@ -1,25 +1,47 @@
-# Documentation Index
+# Índice de Documentación — NUX MG-30 Firmware v5.0.2
 
-Welcome to the comprehensive NUX MG30 Effects Documentation.
+> **Firmware objetivo:** NUX MG-30 **v5.0.2**
+> Toda la documentación de esta rama aplica a este firmware salvo indicación contraria.
 
-## 📚 Main Sections
+Bienvenido a la guía comunitaria completa de la NUX MG-30.
 
-### [🎛️ Effects Documentation](./effects/)
+## 📚 Secciones principales
 
-Complete documentation for all 60+ effects including parameters, usage tips, and audio examples.
+### [ℹ️ Firmware y alcance](./00_firmware_y_alcance.md)
 
-### [🎼 Amplifier Simulations](./amplifiers/)
+Versión v5.0.2, cómo verificar el firmware instalado, advertencias de compatibilidad y alcance de esta documentación.
 
-Detailed coverage of 40+ amplifier models from clean to high-gain.
+### [🔗 Cadena de señal](./01_cadena_de_senal.md)
 
-### [📢 Speaker Cabinets](./cabinets/)
+Explicación de la cadena de señal, bloques disponibles, orden de efectos, niveles y consideraciones generales.
 
-IR documentation for 30+ speaker cabinet simulations.
+### [🎛️ Efectos](./efectos/README.md)
 
-### [🔍 Quick Reference](./reference/)
+Documentación completa de los 60+ efectos: WAH, CMP, GATE, EFX, EQ, S/R, MOD, DLY, RVB.
 
-Parameter ranges, effect combinations, and genre-specific presets.
+### [🎼 Amplificadores](./amplificadores/README.md)
+
+Cobertura detallada de los 40+ modelos de amplificadores: limpios, vintage, british, high-gain, boutique, bajo, acústico.
+
+### [📢 Cabinets / IR](./cabinets_ir/README.md)
+
+Documentación de las 30+ simulaciones de gabinetes de altavoces (IR).
+
+### [🔍 Referencia](./referencia/README.md)
+
+Rangos de parámetros, combinaciones de efectos recomendadas y presets por género musical.
+
+### [📖 Guías prácticas](./guias/README.md)
+
+Guías orientadas a escenarios reales de uso: directo a PA, conexión 4CM, grabación USB, manejo de niveles y control de ruido.
 
 ---
 
-**Last Updated**: August 2025 | **Total Effects**: 60+ | **Community Maintained** ❤️
+## 🔧 Recursos adicionales
+
+- [Guía de estilo](./STYLE_GUIDE.md) — Convenciones y formato para contribuir
+- [NUX Quick Tone](https://www.nuxefx.com/software) — Software oficial de edición de presets
+
+---
+
+**Firmware**: v5.0.2 | **Efectos documentados**: 60+ | **Hecho por la comunidad** ❤️
