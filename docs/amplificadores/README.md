@@ -1,0 +1,58 @@
+# Simulaciones de Amplificadores — NUX MG-30 v5.0.2
+
+> **Firmware objetivo:** NUX MG-30 **v5.0.2**
+
+Esta sección cubre los 40+ modelos de amplificadores disponibles en la NUX MG-30, organizados por tipo y era.
+
+## Categorías de Amplificadores
+
+### [🎵 Amplificadores Limpios](./clean/) — Tonos cristalinos
+- **[Jazz Clean](./jazz_clean.md)** — Roland JC-120 stereo limpio
+- **[Deluxe RVB](./deluxe_rvb.md)** — Fender Deluxe Reverb clásico
+- **[Twin RVB](./twin_rvb.md)** — Fender Twin Reverb potente
+- **[Hiwire](./hiwire.md)** — Hiwatt Custom 100 limpio británico
+- **[F Princeton](./f_princeton.md)** — Fender Princeton Reverb vintage
+
+### [🔥 Vintage Crunch](./vintage/) — Tonos overdriveados clásicos
+- **[Tweedy](./tweedy.md)** — Carácter Fender Tweed
+- **[Bassmate](./bassmate.md)** — Fender Bassman base
+- **[Class A15](./class_a15.md)** — Vox AC15 chime
+- **[Class A30](./ac30.md)** — Vox AC30 clásico británico
+- **[Plexi 45](./plexi_45.md)** — Marshall JTM45 vintage
+
+### [⚡ Rock Británico](./british/) — Tonos Marshall y británicos
+- **[Plexi 100](./plexi_100.md)** — Marshall Super Lead 100 (Plexi)
+- **[Brit 800](./brit_800.md)** — Marshall JCM800 crunch
+- **[1987 X 50](./1987_x_50.md)** — Marshall 1987X (Plexi 50W)
+- **[Brit Blues](./brit_blues.md)** — Marshall Bluesbreaker
+- **[JCM900](./jcm900.md)** — Marshall JCM900 moderno
+- **[Brit 2000](./brit_2000.md)** — Marshall JCM2000 DSL
+
+### [🎸 High-Gain Moderno](./modern/) — Metal y rock moderno
+- **[SLO 100](./slo100.md)** — Soldano SLO-100 high-gain americano
+- **[Dual Rect](./dual_rect.md)** — Mesa Boogie Dual Rectifier
+- **[Die VH4](./die_vh4.md)** — Diezel VH4 precisión alemana
+- **[Uber](./uber.md)** — Bogner Uberschall high-gain alemán
+- **[Fireman](./fireman.md)** — Friedman BE-100 HBE boutique
+
+### [🎯 Boutique y Especialidad](./boutique/) — Amplificadores de carácter único
+- **[Budda](./budda.md)** — Budda Superdrive boutique
+- **[Mr.Z 38](./mr_z_38.md)** — Dr. Z MAZ 38 boutique limpio/crunch
+- **[Match](./match.md)** — Matchless DC-30 boutique británico
+- **[L Star](./l_star.md)** — Laney Lionheart carácter británico
+- **[Vibro King](./vibro_king.md)** — Fender Vibro King con vibrato
+
+### [🎵 Amplificadores de Bajo](./bass/) — Base de baja frecuencia
+- **[AGL](./agl.md)** — Aguilar Tone Hammer preamplificador moderno
+- **[Bassguy](./bassguy.md)** — Ampeg SVT clásico de tubos
+- **[MLD](./mld.md)** — Gallien-Krueger 800RB moderno
+- **[Dglass](./dglass.md)** — Darkglass Microtubes high-gain
+- **[Startlife](./startlife.md)** — Markbass Little Mark moderno
+- **[Vivo](./vivo.md)** — Markbass EVO1 moderno
+
+### [🎸 Simulación Acústica](./acoustic/) — Guitarras acústicas
+- **[Optimal Air](./optimal_air.md)** — Simulación acústica natural
+
+---
+
+**[← Volver al índice](../README.md)** | **[Cabinets / IR →](../cabinets_ir/README.md)**
