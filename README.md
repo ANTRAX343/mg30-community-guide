@@ -3,7 +3,7 @@
 > **Documentación comunitaria completa para la pedalera NUX MG-30 con firmware v5.0.2**
 
 > ⚠️ **Esta rama documenta exclusivamente el firmware NUX MG-30 v5.0.2.**
-> Si usas una versión diferente, pueden existir diferencias en nombres de efectos, parámetros u orden de bloques. Consulta la rama correspondiente a tu firmware.
+> Si usas una versión diferente, pueden existir diferencias en nombres de efectos, parámetros u orden de bloques. Consulta el repositorio para conocer las ramas disponibles por versión de firmware.
 
 [![Efectos](https://img.shields.io/badge/Efectos-60+-blue.svg)](./docs/efectos/)
 [![Amplificadores](https://img.shields.io/badge/Amplificadores-40+-green.svg)](./docs/amplificadores/)
